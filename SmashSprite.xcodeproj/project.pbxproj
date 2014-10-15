@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E83FBC119EE3793002E59AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC019EE3793002E59AB /* Foundation.framework */; };
+		4E83FBC319EE3793002E59AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC219EE3793002E59AB /* CoreGraphics.framework */; };
+		4E83FBC519EE3793002E59AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC419EE3793002E59AB /* UIKit.framework */; };
+		4E83FBC719EE3793002E59AB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC619EE3793002E59AB /* SpriteKit.framework */; };
+		4E83FBCD19EE3793002E59AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E83FBCB19EE3793002E59AB /* InfoPlist.strings */; };
+		4E83FBCF19EE3793002E59AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83FBCE19EE3793002E59AB /* main.m */; };
+		4E83FBD319EE3793002E59AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83FBD219EE3793002E59AB /* AppDelegate.m */; };
+		4E83FBD619EE3793002E59AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E83FBD419EE3793002E59AB /* Main.storyboard */; };
+		4E83FBD919EE3793002E59AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83FBD819EE3793002E59AB /* ViewController.m */; };
+		4E83FBDC19EE3793002E59AB /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83FBDB19EE3793002E59AB /* MyScene.m */; };
+		4E83FBDE19EE3793002E59AB /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E83FBDD19EE3793002E59AB /* Spaceship.png */; };
+		4E83FBE019EE3793002E59AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E83FBDF19EE3793002E59AB /* Images.xcassets */; };
+		4E83FBE719EE3793002E59AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBE619EE3793002E59AB /* XCTest.framework */; };
+		4E83FBE819EE3793002E59AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC019EE3793002E59AB /* Foundation.framework */; };
+		4E83FBE919EE3793002E59AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83FBC419EE3793002E59AB /* UIKit.framework */; };
+		4E83FBF119EE3794002E59AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E83FBEF19EE3794002E59AB /* InfoPlist.strings */; };
+		4E83FBF319EE3794002E59AB /* SmashSpriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83FBF219EE3794002E59AB /* SmashSpriteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E83FBEA19EE3794002E59AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E83FBB519EE3793002E59AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E83FBBC19EE3793002E59AB;
+			remoteInfo = SmashSprite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E83FBBD19EE3793002E59AB /* SmashSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E83FBC019EE3793002E59AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E83FBC219EE3793002E59AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E83FBC419EE3793002E59AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E83FBC619EE3793002E59AB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4E83FBCA19EE3793002E59AB /* SmashSprite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmashSprite-Info.plist"; sourceTree = "<group>"; };
+		4E83FBCC19EE3793002E59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E83FBCE19EE3793002E59AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E83FBD019EE3793002E59AB /* SmashSprite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmashSprite-Prefix.pch"; sourceTree = "<group>"; };
+		4E83FBD119EE3793002E59AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E83FBD219EE3793002E59AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E83FBD519EE3793002E59AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E83FBD719EE3793002E59AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E83FBD819EE3793002E59AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E83FBDA19EE3793002E59AB /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		4E83FBDB19EE3793002E59AB /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		4E83FBDD19EE3793002E59AB /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		4E83FBDF19EE3793002E59AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E83FBE519EE3793002E59AB /* SmashSpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashSpriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E83FBE619EE3793002E59AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4E83FBEE19EE3794002E59AB /* SmashSpriteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmashSpriteTests-Info.plist"; sourceTree = "<group>"; };
+		4E83FBF019EE3794002E59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E83FBF219EE3794002E59AB /* SmashSpriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashSpriteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E83FBBA19EE3793002E59AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBC319EE3793002E59AB /* CoreGraphics.framework in Frameworks */,
+				4E83FBC519EE3793002E59AB /* UIKit.framework in Frameworks */,
+				4E83FBC719EE3793002E59AB /* SpriteKit.framework in Frameworks */,
+				4E83FBC119EE3793002E59AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E83FBE219EE3793002E59AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBE719EE3793002E59AB /* XCTest.framework in Frameworks */,
+				4E83FBE919EE3793002E59AB /* UIKit.framework in Frameworks */,
+				4E83FBE819EE3793002E59AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E83FBB419EE3793002E59AB = {
+			isa = PBXGroup;
+			children = (
+				4E83FBC819EE3793002E59AB /* SmashSprite */,
+				4E83FBEC19EE3794002E59AB /* SmashSpriteTests */,
+				4E83FBBF19EE3793002E59AB /* Frameworks */,
+				4E83FBBE19EE3793002E59AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E83FBBE19EE3793002E59AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBBD19EE3793002E59AB /* SmashSprite.app */,
+				4E83FBE519EE3793002E59AB /* SmashSpriteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E83FBBF19EE3793002E59AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBC019EE3793002E59AB /* Foundation.framework */,
+				4E83FBC219EE3793002E59AB /* CoreGraphics.framework */,
+				4E83FBC419EE3793002E59AB /* UIKit.framework */,
+				4E83FBC619EE3793002E59AB /* SpriteKit.framework */,
+				4E83FBE619EE3793002E59AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E83FBC819EE3793002E59AB /* SmashSprite */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBD119EE3793002E59AB /* AppDelegate.h */,
+				4E83FBD219EE3793002E59AB /* AppDelegate.m */,
+				4E83FBD419EE3793002E59AB /* Main.storyboard */,
+				4E83FBD719EE3793002E59AB /* ViewController.h */,
+				4E83FBD819EE3793002E59AB /* ViewController.m */,
+				4E83FBDA19EE3793002E59AB /* MyScene.h */,
+				4E83FBDB19EE3793002E59AB /* MyScene.m */,
+				4E83FBDD19EE3793002E59AB /* Spaceship.png */,
+				4E83FBDF19EE3793002E59AB /* Images.xcassets */,
+				4E83FBC919EE3793002E59AB /* Supporting Files */,
+			);
+			path = SmashSprite;
+			sourceTree = "<group>";
+		};
+		4E83FBC919EE3793002E59AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBCA19EE3793002E59AB /* SmashSprite-Info.plist */,
+				4E83FBCB19EE3793002E59AB /* InfoPlist.strings */,
+				4E83FBCE19EE3793002E59AB /* main.m */,
+				4E83FBD019EE3793002E59AB /* SmashSprite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E83FBEC19EE3794002E59AB /* SmashSpriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBF219EE3794002E59AB /* SmashSpriteTests.m */,
+				4E83FBED19EE3794002E59AB /* Supporting Files */,
+			);
+			path = SmashSpriteTests;
+			sourceTree = "<group>";
+		};
+		4E83FBED19EE3794002E59AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E83FBEE19EE3794002E59AB /* SmashSpriteTests-Info.plist */,
+				4E83FBEF19EE3794002E59AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E83FBBC19EE3793002E59AB /* SmashSprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E83FBF619EE3794002E59AB /* Build configuration list for PBXNativeTarget "SmashSprite" */;
+			buildPhases = (
+				4E83FBB919EE3793002E59AB /* Sources */,
+				4E83FBBA19EE3793002E59AB /* Frameworks */,
+				4E83FBBB19EE3793002E59AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmashSprite;
+			productName = SmashSprite;
+			productReference = 4E83FBBD19EE3793002E59AB /* SmashSprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E83FBE419EE3793002E59AB /* SmashSpriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E83FBF919EE3794002E59AB /* Build configuration list for PBXNativeTarget "SmashSpriteTests" */;
+			buildPhases = (
+				4E83FBE119EE3793002E59AB /* Sources */,
+				4E83FBE219EE3793002E59AB /* Frameworks */,
+				4E83FBE319EE3793002E59AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E83FBEB19EE3794002E59AB /* PBXTargetDependency */,
+			);
+			name = SmashSpriteTests;
+			productName = SmashSpriteTests;
+			productReference = 4E83FBE519EE3793002E59AB /* SmashSpriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E83FBB519EE3793002E59AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 13cm;
+				TargetAttributes = {
+					4E83FBE419EE3793002E59AB = {
+						TestTargetID = 4E83FBBC19EE3793002E59AB;
+					};
+				};
+			};
+			buildConfigurationList = 4E83FBB819EE3793002E59AB /* Build configuration list for PBXProject "SmashSprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E83FBB419EE3793002E59AB;
+			productRefGroup = 4E83FBBE19EE3793002E59AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E83FBBC19EE3793002E59AB /* SmashSprite */,
+				4E83FBE419EE3793002E59AB /* SmashSpriteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E83FBBB19EE3793002E59AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBCD19EE3793002E59AB /* InfoPlist.strings in Resources */,
+				4E83FBE019EE3793002E59AB /* Images.xcassets in Resources */,
+				4E83FBDE19EE3793002E59AB /* Spaceship.png in Resources */,
+				4E83FBD619EE3793002E59AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E83FBE319EE3793002E59AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBF119EE3794002E59AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E83FBB919EE3793002E59AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBDC19EE3793002E59AB /* MyScene.m in Sources */,
+				4E83FBD919EE3793002E59AB /* ViewController.m in Sources */,
+				4E83FBD319EE3793002E59AB /* AppDelegate.m in Sources */,
+				4E83FBCF19EE3793002E59AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E83FBE119EE3793002E59AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E83FBF319EE3794002E59AB /* SmashSpriteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E83FBEB19EE3794002E59AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E83FBBC19EE3793002E59AB /* SmashSprite */;
+			targetProxy = 4E83FBEA19EE3794002E59AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E83FBCB19EE3793002E59AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E83FBCC19EE3793002E59AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E83FBD419EE3793002E59AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E83FBD519EE3793002E59AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E83FBEF19EE3794002E59AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E83FBF019EE3794002E59AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E83FBF419EE3794002E59AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E83FBF519EE3794002E59AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E83FBF719EE3794002E59AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmashSprite/SmashSprite-Prefix.pch";
+				INFOPLIST_FILE = "SmashSprite/SmashSprite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E83FBF819EE3794002E59AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmashSprite/SmashSprite-Prefix.pch";
+				INFOPLIST_FILE = "SmashSprite/SmashSprite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E83FBFA19EE3794002E59AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmashSprite.app/SmashSprite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmashSprite/SmashSprite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmashSpriteTests/SmashSpriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4E83FBFB19EE3794002E59AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmashSprite.app/SmashSprite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmashSprite/SmashSprite-Prefix.pch";
+				INFOPLIST_FILE = "SmashSpriteTests/SmashSpriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E83FBB819EE3793002E59AB /* Build configuration list for PBXProject "SmashSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83FBF419EE3794002E59AB /* Debug */,
+				4E83FBF519EE3794002E59AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E83FBF619EE3794002E59AB /* Build configuration list for PBXNativeTarget "SmashSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83FBF719EE3794002E59AB /* Debug */,
+				4E83FBF819EE3794002E59AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E83FBF919EE3794002E59AB /* Build configuration list for PBXNativeTarget "SmashSpriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83FBFA19EE3794002E59AB /* Debug */,
+				4E83FBFB19EE3794002E59AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E83FBB519EE3793002E59AB /* Project object */;
+}
